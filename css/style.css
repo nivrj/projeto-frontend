@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+  }
+  
+  header .logo h1 {
+    font-size: 24px;
+  }
+  
+  header .search-bar input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  header .search-bar button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: #ff4b4b;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  header .search-bar button:hover {
+    background-color: #ff1f1f;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    margin-bottom: 20px;
+  }
+  
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .video-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .video-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .video-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .video-card p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .watch-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ff4b4b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .watch-btn:hover {
+    background-color: #ff1f1f;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
